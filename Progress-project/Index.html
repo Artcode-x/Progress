@@ -10,17 +10,22 @@
 
 <body>
     <div class="progress">
-        <div id="progress-block">
-            <div id="progress-fill"></div>
+        <div id="box" class="progress-block">
+            <div id="loader" class="progress-block__loader"></div>
         </div>
         <div class="control-panel">
-            <input type="number" id="valueInput" min="0" max="100" placeholder="Value (0-100)" />
+            <input type="number" id="valueInput" min="0" max="100" placeholder="Введите значение (0-100)">
 
             <label>
-                <input type="checkbox" id="hideBox" /> Hide
+                <input type="checkbox" id="animateToggle"> Анимировать
             </label>
+            <label>
+                <input type="checkbox" id="hideBox"> Скрыть
+            </label>
+
+
         </div>
-        <div class="dotted-line"></div>
+
     </div>
     <script src="Progress.js"></script>
 </body>
