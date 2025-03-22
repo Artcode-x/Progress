@@ -9,38 +9,27 @@
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Progress</title>
-        <link rel="stylesheet" href="./SCSS/style.css">
-    </head>
-
-    <body>
-
-        <div class="progress">
-            <div class="progress__block" id="box">
-                <div id="loader" class="progress__block-loader"></div>
-            </div>
-            <div class="progress__control-panel">
-                <label class="progress__toggle">
-                    <input type="number" id="valueInput" min="0" max="100" placeholder="...">Value
-                </label>
-                <label class="progress__toggle">
-                    <input type="checkbox" id="animateToggle">
-                    <span class="switch"></span> Animate
-                </label>
-                <label class="progress__toggle">
-                    <input type="checkbox" id="hideBox">
-                    <span class="switch"></span> Hide
-                </label>
-            </div>
-
+    <div class="progress">
+        <div class="progress__block" id="box">
+            <div id="loader" class="progress__block-loader"></div>
         </div>
-        <script src="Progress.js"></script>
-    </body>
+        <div class="progress__control-panel">
+            <label class="progress__toggle">
+                <input type="number" id="valueInput" min="0" max="100" placeholder="...">Value
+            </label>
+            <label class="progress__toggle">
+                <input type="checkbox" id="animateToggle">
+                <span class="switch"></span> Animate
+            </label>
+            <label class="progress__toggle">
+                <input type="checkbox" id="hideBox">
+                <span class="switch"></span> Hide
+            </label>
+        </div>
 
-    </html>
+    </div>
+    <script src="Progress.js"></script>
+</body>
+
+</html>
