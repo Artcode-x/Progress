@@ -9,27 +9,8 @@
 </head>
 
 <body>
-
-    <div class="progress">
-        <div class="progress__block" id="box">
-            <div id="loader" class="progress__block-loader"></div>
-        </div>
-        <div class="progress__control-panel">
-            <label class="progress__toggle">
-                <input type="number" id="valueInput" min="0" max="100" placeholder="...">Value
-            </label>
-            <label class="progress__toggle">
-                <input type="checkbox" id="animateToggle">
-                <span class="switch"></span> Animate
-            </label>
-            <label class="progress__toggle">
-                <input type="checkbox" id="hideBox">
-                <span class="switch"></span> Hide
-            </label>
-        </div>
-
-    </div>
-    <script src="Progress.js"></script>
+    <div id="progressComponent"></div>
+    <script src="Progress.js" type="module"></script>
 </body>
 
 </html>
